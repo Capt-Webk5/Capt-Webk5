@@ -59,5 +59,8 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&lines=Thank+you+for+visiting+my+profile+%E2%9D%A4%EF%B8%8F%F0%9F%94%90" alt="Typing SVG" />
 </p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6d94cb5f-4a10-448d-b328-70f925ad6a6d" alt="Banner" />
+</p>
 
 
