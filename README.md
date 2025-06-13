@@ -52,17 +52,6 @@
 - ⚔️ [**CTF-Writeups**](https://capt-webk5.github.io/pwn4s0n1c.github.io/)  
   > Writeups for CTF challenges, mostly web and forensics.
 
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" width="400" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" width="400" />
-</p>
-
----
-
 > 🧠 “Hack to learn, not learn to hack.” – Ethical Hackers VSL
 >
 <p align="center">
