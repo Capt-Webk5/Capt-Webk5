@@ -3,6 +3,7 @@
   <img src="https://media.giphy.com/media/wiTY1JMB6xvUUjuPRH/giphy.gif" width="300" />
 </p>
 
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&lines=Hi+%F0%9F%91%8B%2C+I'm+Van+Phuc+%E2%9D%A4%EF%B8%8F;+Web+Pentester+%F0%9F%96%A5%EF%B8%8F+%7C+CTF+Player+%7C+Newbie+Pentester;%E2%9D%A4%EF%B8%8F+VKU+University+%E2%9D%A4%EF%B8%8F" alt="Typing SVG" />
 </p>
@@ -60,7 +61,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&lines=Thank+you+for+visiting+my+profile+%E2%9D%A4%EF%B8%8F%F0%9F%94%90" alt="Typing SVG" />
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bddd887c-4b9f-49d1-a203-19c311c00626" alt="Banner" />
+  <img src="https://user-images.githubusercontent.com/78724676/107845321-998ad500-6e00-11eb-8f60-a90db837bdb2.gif" width="400" />
 </p>
 
 
