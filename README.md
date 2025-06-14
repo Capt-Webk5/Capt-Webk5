@@ -18,8 +18,6 @@
 ## 🧠 About Me
 
 - 🔍 Passionate about discovering vulnerabilities in web applications.
-- 🛠️ Skilled in **OWASP Top 10**
-- 🧰 Tools I use: **Burp Suite**, **gobuster**, **dirsearch**, **sqlmap**.
 - 🧑‍💻 I am currently working on improving my pentest skills.
 - 🏆 Love playing **CTFs** (especially Web and Forensics challenges).
 ---
