@@ -49,7 +49,7 @@
   > A vulnerable-by-design web app for practicing OWASP Top 10 in real-world contexts.
 
 - ⚔️ [**CTF-Writeups**](https://capt-webk5.github.io/pwn4s0n1c.github.io/)  
-  > Writeups for CTF challenges, mostly web and forensics.
+  > Writeups for CTF challenges, mostly web.
 ---
 ## 🧪 Connect With Me
 <p align="center"> <a href="mailto:phucv1513@gmail.com" target="_blank"> <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://discord.com/channels/1351210288363470889/1382963686708088852" target="_blank"> <img alt="Discord" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /> </a> </p>
