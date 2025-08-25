@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureHub - Trung tâm Bảo mật Cyber</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>SecureHub</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Trang chủ</a></li>
+                    <li><a href="#tools" class="nav-link">Công cụ</a></li>
+                    <li><a href="#news" class="nav-link">Tin tức</a></li>
+                    <li><a href="#tips" class="nav-link">Mẹo bảo mật</a></li>
+                    <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Bảo vệ thế giới số của bạn</h1>
+                <p class="hero-subtitle">Trung tâm bảo mật toàn diện với các công cụ, tin tức và hướng dẫn bảo mật hàng đầu</p>
+                <div class="hero-buttons">
+                    <a href="#tools" class="btn btn-primary">Khám phá công cụ</a>
+                    <a href="#tips" class="btn btn-secondary">Mẹo bảo mật</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="security-shield">
+                    <i class="fas fa-shield-alt"></i>
+                    <div class="shield-rings">
+                        <div class="ring ring-1"></div>
+                        <div class="ring ring-2"></div>
+                        <div class="ring ring-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Tools Section -->
+    <section id="tools" class="tools-section">
+        <div class="container">
+            <h2 class="section-title">Công cụ Bảo mật</h2>
+            <div class="tools-grid">
+                <!-- Password Generator -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Tạo mật khẩu mạnh</h3>
+                    <p>Tạo mật khẩu an toàn và phức tạp</p>
+                    <div class="password-generator">
+                        <div class="form-group">
+                            <label>Độ dài: <span id="lengthValue">12</span></label>
+                            <input type="range" id="passwordLength" min="6" max="50" value="12">
+                        </div>
+                        <div class="checkboxes">
+                            <label><input type="checkbox" id="includeUppercase" checked> Chữ hoa</label>
+                            <label><input type="checkbox" id="includeLowercase" checked> Chữ thường</label>
+                            <label><input type="checkbox" id="includeNumbers" checked> Số</label>
+                            <label><input type="checkbox" id="includeSymbols"> Ký tự đặc biệt</label>
+                        </div>
+                        <button class="btn btn-primary" onclick="generatePassword()">Tạo mật khẩu</button>
+                        <div class="password-output">
+                            <input type="text" id="generatedPassword" readonly>
+                            <button class="copy-btn" onclick="copyPassword()">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Password Strength Checker -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Kiểm tra độ mạnh mật khẩu</h3>
+                    <p>Đánh giá mức độ an toàn của mật khẩu</p>
+                    <div class="password-checker">
+                        <input type="password" id="passwordInput" placeholder="Nhập mật khẩu để kiểm tra">
+                        <div class="strength-meter">
+                            <div class="strength-bar" id="strengthBar"></div>
+                        </div>
+                        <div class="strength-text" id="strengthText">Nhập mật khẩu</div>
+                        <div class="suggestions" id="suggestions"></div>
+                    </div>
+                </div>
+
+                <!-- URL Scanner -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Quét URL an toàn</h3>
+                    <p>Kiểm tra tính an toàn của website</p>
+                    <div class="url-scanner">
+                        <input type="url" id="urlInput" placeholder="https://example.com">
+                        <button class="btn btn-primary" onclick="scanURL()">Quét URL</button>
+                        <div class="scan-result" id="scanResult"></div>
+                    </div>
+                </div>
+
+                <!-- Hash Generator -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <h3>Tạo Hash</h3>
+                    <p>Tạo hash MD5, SHA-1, SHA-256</p>
+                    <div class="hash-generator">
+                        <input type="text" id="hashInput" placeholder="Nhập text cần hash">
+                        <select id="hashType">
+                            <option value="md5">MD5</option>
+                            <option value="sha1">SHA-1</option>
+                            <option value="sha256">SHA-256</option>
+                        </select>
+                        <button class="btn btn-primary" onclick="generateHash()">Tạo Hash</button>
+                        <div class="hash-output">
+                            <input type="text" id="hashResult" readonly>
+                            <button class="copy-btn" onclick="copyHash()">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security News Section -->
+    <section id="news" class="news-section">
+        <div class="container">
+            <h2 class="section-title">Tin tức Bảo mật</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-meta">
+                        <span class="news-category">Cảnh báo</span>
+                        <span class="news-date">15/12/2024</span>
+                    </div>
+                    <h3>Phát hiện lỗ hổng nghiêm trọng trong Apache Log4j</h3>
+                    <p>Lỗ hổng CVE-2021-44228 cho phép kẻ tấn công thực thi code từ xa. Cập nhật ngay lập tức...</p>
+                    <a href="#" class="read-more">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-meta">
+                        <span class="news-category">Xu hướng</span>
+                        <span class="news-date">12/12/2024</span>
+                    </div>
+                    <h3>Zero Trust Architecture - Xu hướng bảo mật 2024</h3>
+                    <p>Tìm hiểu về mô hình Zero Trust và cách triển khai trong doanh nghiệp...</p>
+                    <a href="#" class="read-more">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-meta">
+                        <span class="news-category">Hướng dẫn</span>
+                        <span class="news-date">10/12/2024</span>
+                    </div>
+                    <h3>Cách bảo vệ tài khoản khỏi tấn công phishing</h3>
+                    <p>Hướng dẫn chi tiết cách nhận biết và phòng chống các cuộc tấn công phishing...</p>
+                    <a href="#" class="read-more">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Tips Section -->
+    <section id="tips" class="tips-section">
+        <div class="container">
+            <h2 class="section-title">Mẹo Bảo mật</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-number">01</div>
+                    <h3>Sử dụng mật khẩu mạnh</h3>
+                    <p>Tạo mật khẩu dài ít nhất 12 ký tự, kết hợp chữ hoa, chữ thường, số và ký tự đặc biệt.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">02</div>
+                    <h3>Kích hoạt 2FA</h3>
+                    <p>Bật xác thực hai yếu tố cho tất cả tài khoản quan trọng để tăng cường bảo mật.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">03</div>
+                    <h3>Cập nhật phần mềm</h3>
+                    <p>Luôn cập nhật hệ điều hành và ứng dụng để vá các lỗ hổng bảo mật mới nhất.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">04</div>
+                    <h3>Sao lưu dữ liệu</h3>
+                    <p>Thực hiện sao lưu dữ liệu định kỳ và lưu trữ ở nhiều vị trí khác nhau.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">05</div>
+                    <h3>Cẩn thận với WiFi công cộng</h3>
+                    <p>Tránh truy cập thông tin nhạy cảm qua WiFi công cộng, sử dụng VPN khi cần thiết.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">06</div>
+                    <h3>Kiểm tra email đáng ngờ</h3>
+                    <p>Không click vào link hoặc tải file đính kèm từ email không rõ nguồn gốc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Liên hệ</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Thông tin liên hệ</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>security@securehub.vn</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+84 123 456 789</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Cyber Street, Tech District, Hà Nội</span>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Họ và tên" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tin nhắn" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>SecureHub</span>
+                    </div>
+                    <p>Trung tâm bảo mật hàng đầu Việt Nam, cung cấp giải pháp bảo mật toàn diện cho cá nhân và doanh nghiệp.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Dịch vụ</h4>
+                    <ul>
+                        <li><a href="#">Kiểm tra bảo mật</a></li>
+                        <li><a href="#">Đào tạo bảo mật</a></li>
+                        <li><a href="#">Tư vấn bảo mật</a></li>
+                        <li><a href="#">Ứng cứu sự cố</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Liên kết</h4>
+                    <ul>
+                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Theo dõi chúng tôi</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SecureHub. Tất cả quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
