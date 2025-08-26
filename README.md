@@ -19,7 +19,7 @@
 
 - 🔍 Passionate about discovering vulnerabilities in web applications.
 - 🧑‍💻 I am currently working on improving my pentest skills.
-- 🏆 Love playing **CTFs** (especially Web and Forensics challenges).
+- 🏆 Love playing **CTFs** (especially Web and PWN challenges).
 ---
 
 ## 🧰 Toolbox
