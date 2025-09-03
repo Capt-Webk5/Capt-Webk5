@@ -44,6 +44,9 @@
 
 
 ---
+## 🎓 Certificates
+![Cert CTF](https://github.com/user-attachments/assets/67c65db4-3098-402e-be80-d98673a6985c)
+
 
 ## 🚀 Featured Projects
 
