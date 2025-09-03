@@ -40,7 +40,8 @@
 ![Nmap](https://img.shields.io/badge/Nmap-00457C?logo=nmap)
 ![SQLMap](https://img.shields.io/badge/SQLMap-yellow?style=flat&logoColor=black)
 ![ffuf](https://img.shields.io/badge/ffuf-blue?style=flat)
-![Metasploit](https://img.shields.io/badge/Metasploit-ED1C24?style=flat&logo=metasploit&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2e77bc?style=flat&logo=metasploit&logoColor=white)
+
 
 ---
 
