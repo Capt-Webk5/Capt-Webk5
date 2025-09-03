@@ -44,8 +44,11 @@
 
 
 ---
-## 🎓 Certificates
-![Cert CTF](https://github.com/user-attachments/assets/67c65db4-3098-402e-be80-d98673a6985c)
+## 🎓 Certificates CTF Time
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/67c65db4-3098-402e-be80-d98673a6985c" alt="Cert CTF" width="400"/>
+</p>
 
 
 ## 🚀 Featured Projects
