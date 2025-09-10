@@ -43,14 +43,6 @@
 ![Metasploit](https://img.shields.io/badge/Metasploit-2e77bc?style=flat&logo=metasploit&logoColor=white)
 
 
----
-## 🎓 Certificates Play CTF
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/67c65db4-3098-402e-be80-d98673a6985c" alt="Cert CTF" width="400"/>
-</p>
-
-
 ## 🚀 Featured Projects
 
 - 🧪 [**WebVulnLab**](https://portswigger.net/web-security/all-topics)  
