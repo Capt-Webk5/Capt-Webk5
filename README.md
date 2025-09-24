@@ -59,7 +59,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&lines=Thank+you+for+visiting+my+profile+%E2%9D%A4%EF%B8%8F%F0%9F%94%90" alt="Typing SVG" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CaoQuocViet/github_page_img/refs/heads/main/img/gif/header.gif" width="400" />
+  <img src="https://raw.githubusercontent.com/CaoQuocViet/github_page_img/refs/heads/main/img/gif/header.gif" width="600" />
 </p>
 
 
